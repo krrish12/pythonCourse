@@ -44,16 +44,48 @@ print(y.expandtabs(1))
 #output: "Hello |How are you|How u doing"
 
 print(x.find('|'))
-#output 6
+#output: 6
 
 print(x.index("|",7,len(x)))
-#output 20 second occurence of |
+#output: 20 second occurence of |
 
 y="abc123"
 print(y.isalnum())
-#output True
+#output: True
 
 y="abc!"
 print(y.isalnum())
-#output False
+#output: False
 
+print("isAlpha:",y.isalpha())
+#output: isAlpha: False
+
+print("isDigit:",y.isdigit())
+#output: isDigit: False
+
+y="1234"
+print("isDigit:",y.isdigit())
+#output: isDigit: True
+
+print("isLower:",x.islower())
+#output: isLower: False
+
+print("isUpper:",x.isupper())
+#output: isUpper: False
+
+print("isNumeric:",y.isnumeric())
+#output: isNumeric: True
+
+print("isSpace:",x.isspace())
+#output: isSpace: False
+
+z="     "
+print("isSpace:",z.isspace())
+#output: isSpace: True
+
+print("isTitle:",x.istitle())
+#output: isTitle: False
+
+abc="Hello How"
+print("isTitle:",abc.istitle())
+#output: isTitle:True
