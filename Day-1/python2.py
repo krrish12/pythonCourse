@@ -13,4 +13,3 @@ obj=2+9.0
 print(type(obj))
 obj=9.
 print(type(obj))
-
