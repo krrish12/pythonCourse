@@ -50,9 +50,9 @@ obj = 3//2
 print(obj)#int type
 #output: 1
 
-obj = 3/2.0
+obj = 3//2.0
 print(obj)#float type
-#output: 1.5
+#output: 1.0
 
 #Comparison Operators
 
