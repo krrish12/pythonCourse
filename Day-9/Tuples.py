@@ -20,5 +20,5 @@ print("Expression value is:",min(tupObj3))
 print("Expression value is:",tuple(tupObj3))
 #output: Expression value is: (10, 20, 30, 40)
 
-
-            
+print("Expression value is:",type(tupObj3))
+#output: Expression value is: <class 'tuple'>          
