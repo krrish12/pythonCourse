@@ -6,7 +6,7 @@ else:
    print(count, " is not less than 2")
 
 #output:
-   # o is less than 2
+   # 0 is less than 2
    # 1 is less than 2
    # 2 is not less than 2
 
