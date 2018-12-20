@@ -171,7 +171,6 @@ obj="   Hello    "
 print("Expression is:",obj.strip())
 #output: Expression is: Hello
 
-
 obj="hElP"
 print("Expression is: %s" %obj.swapcase())
 #output:Expression is: HeLp
