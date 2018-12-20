@@ -175,3 +175,28 @@ print("Expression is:",obj.strip())
 obj="hElP"
 print("Expression is: %s" %obj.swapcase())
 #output:Expression is: HeLp
+
+obj="HELP"
+print("Expression is: %s" %obj.swapcase())
+#output:Expression is: help
+
+obj="help"
+print("Expression is: %s" %obj.swapcase())
+#output:Expression is: HELP
+
+obj="hElp"
+print("Expression is: %s" %obj.title())
+#output:Expression is: Help
+
+obj="hElp"
+print("Expression is: %s" %obj.zfill(len(obj)+2))
+#output:Expression is: 00hElp
+
+decimal=u"2345"
+print("Expression is:",decimal.isdecimal())
+#output: Expression is: True
+
+decimal=u"a2345"
+print("Expression is:",decimal.isdecimal())
+#output: Expression is: False
+
