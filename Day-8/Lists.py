@@ -49,3 +49,6 @@ print("Expression value is:",listObj)
 listObj.sort(reverse=True)
 print("Expression value is:",listObj)
 #output: Expression value is: [35, 30, 20, 10]
+
+print("Expression value is:",type(listObj))
+#output: Expression value is: <class 'list'>
